@@ -11,7 +11,7 @@ Projeto desenvolvido no treinamento programador fullstack (Realizado pelo SENAI)
 
 
 <p align="center">
-  <a href="https://777diegoribeiro777.github.io/toDoList/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
+  <a href="https://quentinhas-do-grau.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto visa criar um To Do List utilizando os conhecimentos de HTML, CSS e JAVASCRIPT aprendidos em sala. Além disso, foi proposto pelo docente a pesquisa de referências e o desafio de adicionar funcionalidades que destaquem o site dos demais. Dessa forma, pude reforçar diversos conceito e realizei a descoberta de novas possibilidades com as tecnologias usadas.
+O projeto visa criar um Cardápio para um cliente fictício utilizando os conhecimentos de HTML, CSS e JAVASCRIPT aprendidos em sala. Além disso, foi proposto pelo docente a pesquisa de referências. Dessa forma, pude reforçar diversos conceito e realizei a descoberta de novas possibilidades com as tecnologias usadas.
 
 ## 🔖 Layout
 
