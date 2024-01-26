@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cardápio</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./foods/menu-svgrepo-com (1).svg" type="image/x-icon">
+  </head>
+  <body>
+    <section class="menu">
+      <div class="menu-container">
+        <div class="menu-head">
+          <h2>Quentinhas do Grau</h2>
+          <p>
+            A Quentinhas do Grau é uma empresa de alimentação e lanches rápidos
+            que se destaca pela sua variedade de opções para almoço, jantar,
+            bebidas e sobremesas. Preocupada com a sustentabilidade, optou por
+            criar um cardápio virtual em seu site, evitando a impressão
+            constante de cardápios físicos e demonstrando seu compromisso com o
+            meio ambiente. Com uma abordagem inovadora, a empresa busca oferecer
+            praticidade e qualidade aos clientes, mantendo-os informados sobre
+            os produtos, novidades e preços de forma acessível e conveniente.
+            <strong>VENHA NOS CONHECER!!!!!</strong>
+          </p>
+        </div>
+
+        <div class="menu-btns">
+          <button type="button" class="menu-btn active-btn" id="today-special">
+            Almoço
+          </button>
+          <button type="button" class="menu-btn" id="new-arrival">
+            Jantar
+          </button>
+          <button type="button" class="menu-btn" id="featured">Bebidas</button>
+          <button type="button" class="menu-btn" id="sobremesas">
+            Sobremesas
+          </button>
+        </div>
+
+        <div class="food-items">
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/suco-frutas.webp" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Sucos naturais</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 15,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img src="foods/barbecue.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Churrasco</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 30,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img
+                src="foods/barbecued-roasted-duck-ramen.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Pato Grelhado com Acompanhamentos</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 35,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/Heineken.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Heineken</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 6,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img
+                src="foods/breakfast-sandwich-with-hummus-spread-and-fresh-vegetables.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Sandwich Vegano</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 15,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img
+                src="foods/brunch-skillet-with-eggs-and-tomatoes.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Lasanha</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 20,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/Coqueteis.webp" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Coquetel</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 15,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img
+                src="foods/chicken-legs-with-tomatoes-peppers-and-oranges.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Frango Especial do Chefe</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 29,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img src="foods/eggplant-cannelloni.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Medalhão Gourmet</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 35,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/ice.webp" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Smirnoff ICE</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 9,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img src="foods/fried-rice-with-shrimps.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">
+                Bowl de Arroz temperado com acompanhamentos
+              </h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 25,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img
+                src="foods/king-prawns-with-green-lettuce.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Camarão</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 31,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/vinhos.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Vinhos</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 35,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img
+                src="foods/pizza-with-a-lot-of-cheese.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Fatia de Pizza</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 10,00</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img src="foods/summer-juicy-beef-burger.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Hamburger Gourmet e Fritas</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 19,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item featured">
+            <div class="food-img">
+              <img src="foods/aguaMineral.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Água Mineral</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 2,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="far fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item today-special">
+            <div class="food-img">
+              <img
+                src="foods/tiny-pickles-on-top-of-burger.jpg"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Hamburger Gourmet</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 17,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item new-arrival">
+            <div class="food-img">
+              <img src="foods/tortilla-chips-with-salsa.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Tortilla Chips</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 26,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img
+                src="foods/pudim-de-leite-de-verdade-creme-caramel-ycykjdg5.png"
+                alt="food image"
+              />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Pudim</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 8,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img src="foods/Pastel-de-Belém.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Pastel de Belém</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 2,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img src="foods/milk_shake.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Milk Shake</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 14,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img src="foods/Sorvete-1200x900.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Bola de Sorvete</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 2,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img src="foods/acai-bowl-e1695305206454.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Bowl de Açaí, Mais Dois Acompanhamentos</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 9,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+
+          <!-- item -->
+          <div class="food-item sobremesas">
+            <div class="food-img">
+              <img src="foods/Trufas.jpg" alt="food image" />
+            </div>
+            <div class="food-content">
+              <h2 class="food-name">Trufa Gourmet</h2>
+              <div class="line"></div>
+              <h3 class="food-price">R$ 4,99</h3>
+              <ul class="rating">
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+                <li><i class="fas fa-star"></i></li>
+              </ul>
+            </div>
+          </div>
+          <!-- end of item -->
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
